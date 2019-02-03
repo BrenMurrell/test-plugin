@@ -1,12 +1,13 @@
 <?php
 /**
  * @package Hello_Dolly_Redux
- * @version 1.0
+ * @version 1.1
  */
 /*
 Plugin Name: Hello Dolly Redux
 Plugin URI: http://wordpress.org/plugins/hello-dolly/
-Description: This is a redux version of the original Hello Dolly plugin by Matt Mullenweg
+Description: This is a redux version of the original Hello Dolly plugin by Matt Mullenweg 
+using the lyrics for Drone Racing League by Gunship
 Author: Bren Murrell
 Version: 1.0
 Author URI: http://ma.tt/
@@ -15,34 +16,32 @@ GitHub Plugin URI: BrenMurrell/test-plugin
 
 function hello_dolly_get_lyric() {
 	/** These are the lyrics to Hello Dolly */
-	$lyrics = "Hello, Dolly
-Well, hello, Dolly
-It's so nice to have you back where you belong
-You're lookin' swell, Dolly
-I can tell, Dolly
-You're still glowin', you're still crowin'
-You're still goin' strong
-We feel the room swayin'
-While the band's playin'
-One of your old favourite songs from way back when
-So, take her wrap, fellas
-Find her an empty lap, fellas
-Dolly'll never go away again
-Hello, Dolly
-Well, hello, Dolly
-It's so nice to have you back where you belong
-You're lookin' swell, Dolly
-I can tell, Dolly
-You're still glowin', you're still crowin'
-You're still goin' strong
-We feel the room swayin'
-While the band's playin'
-One of your old favourite songs from way back when
-Golly, gee, fellas
-Find her a vacant knee, fellas
-Dolly'll never go away
-Dolly'll never go away
-Dolly'll never go away again";
+	$lyrics = "She's a bird, she's a sidewinder
+	Just hold on, we're in this together
+	Like a ghost, like a vampire
+	Hey spirit, can I take you home?
+	Survive, overdrive
+	A thousand teeth of a thousand voices
+	When the sun goes down, it goes on and on
+	(On and on and on and on and-)
+	Enter the night through the eye of the storm
+	This dark machine, an impossible hero
+	Hey starlight, yo battle bird
+	Only in dreams can I take you home
+	Survive, overdrive
+	A thousand teeth of a thousand voices
+	When the sun goes down, it goes on and on
+	(On and on and on and on and-)
+	Hold it, Hell's right here
+	My fingers, slip the controls I steer
+	As the blood, eyes, hope dies
+	A thousand ways to overdrive, go
+	Drive, push, harder
+	Drive, push, harder
+	Hold it, Hell's right here
+	My fingers, slip the controls I steer
+	As the blood, eyes, hope dies
+	A thousand ways to overdrive";
 
 	// Here we split it into lines
 	$lyrics = explode( "\n", $lyrics );
