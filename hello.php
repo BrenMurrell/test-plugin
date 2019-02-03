@@ -9,7 +9,7 @@ Plugin URI: http://wordpress.org/plugins/hello-dolly/
 Description: This is a redux version of the original Hello Dolly plugin by Matt Mullenweg 
 using the lyrics for Drone Racing League by Gunship
 Author: Bren Murrell
-Version: 1.1.2
+Version: 1.1.3
 Author URI: http://ma.tt/
 GitHub Plugin URI: https://github.com/BrenMurrell/test-plugin
 */
@@ -31,7 +31,7 @@ function hello_dolly_get_lyric() {
 	Survive, overdrive
 	A thousand teeth of a thousand voices
 	When the sun goes down, it goes on and on
-	(On and on and on and on and-)
+	(On and on and on and on and...)
 	Hold it, Hell's right here
 	My fingers, slip the controls I steer
 	As the blood, eyes, hope dies
