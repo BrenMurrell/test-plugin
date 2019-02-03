@@ -10,6 +10,7 @@ Description: This is a redux version of the original Hello Dolly plugin by Matt 
 Author: Bren Murrell
 Version: 1.0
 Author URI: http://ma.tt/
+GitHub Plugin URI: BrenMurrell/test-plugin
 */
 
 function hello_dolly_get_lyric() {
