@@ -9,7 +9,7 @@ Plugin URI: http://wordpress.org/plugins/hello-dolly/
 Description: This is a redux version of the original Hello Dolly plugin by Matt Mullenweg 
 using the lyrics for Drone Racing League by Gunship
 Author: Bren Murrell
-Version: 1.0
+Version: 1.1.2
 Author URI: http://ma.tt/
 GitHub Plugin URI: https://github.com/BrenMurrell/test-plugin
 */
