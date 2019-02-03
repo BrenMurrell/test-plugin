@@ -11,7 +11,7 @@ using the lyrics for Drone Racing League by Gunship
 Author: Bren Murrell
 Version: 1.0
 Author URI: http://ma.tt/
-GitHub Plugin URI: BrenMurrell/test-plugin
+GitHub Plugin URI: https://github.com/BrenMurrell/test-plugin
 */
 
 function hello_dolly_get_lyric() {
